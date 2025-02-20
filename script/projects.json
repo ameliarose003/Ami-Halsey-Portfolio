@@ -1,0 +1,33 @@
+{
+    "projects": [
+      {
+        "title": "Cottage Bakery Project",
+        "image": "./images/cottageBakeryProject.png",
+        "url": "https://ameliarose003.github.io/wddfall2024/css-practice/holy-grail/",
+        "description": "For this project I created a mock website for my sister's baked goods she sells at the farmers market.",
+        "date": "2024"
+      },
+      {
+        "title": "Camp Registration Project",
+        "image": "./images/campRegistrationProject.png",
+        "url": "https://ameliarose003.github.io/wddfall2024/registration/",
+        "description": "I used this project to practice using forms and making actions occur when they are submitted.",
+        "date": "2024"
+      },
+      {
+        "title": "Recipe Book Search project",
+        "image": "./images/recipeBookProject.png",
+        "url": "https://ameliarose003.github.io/wddfall2024/recipes",
+        "description": "For this project I used a .mjs file to insert the recipes into the recipe book.",
+        "date": "2024"
+      },
+      {
+        "title": "The Italian Pineapple",
+        "image": "./images/ItalianPineappleProject.png",
+        "url": "https://ameliarose003.github.io/italian_pineapple/coupons.html",
+        "description": "This was a group project I did with some friends. We each took a page of the pizza website to create. I made the coupons page.",
+        "date": "2024"
+      }
+    ]
+  }
+  
