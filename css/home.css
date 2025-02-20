@@ -86,9 +86,15 @@ header .hero-content p {
 
 .projects-section img {
     width: 300px;
-    height: 250px;
+    height: 180px;
     border-radius: 4px;
-    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0, 0.2);
+    transform: scale(1);
+    transition: 0.6s ease;
+}
+
+.projects-section img:hover {
+    transform: scale(1.1);
 }
 
 .project-container {
@@ -97,6 +103,9 @@ header .hero-content p {
 
 }
 
+.projects-section p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 /* About */
 
