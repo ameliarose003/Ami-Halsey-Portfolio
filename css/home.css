@@ -69,24 +69,25 @@ header .hero-content p {
     display: flex;
     justify-content: center;
     margin-top: 80px;
+    border-bottom: 1px solid grey;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 30px;
 }
 .projects-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    /* align-items: center; */
     margin-top: 50px;
     margin-right: 20%;
     margin-left: 20%;
     padding-bottom: 60px;
     padding-top: 30px;
-    border-bottom: 1px solid grey;
-    border-top: 1px solid grey;
 }
 
 .projects-section img {
     width: 300px;
-    height: 180px;
+    height: 147px;
     border-radius: 4px;
     box-shadow: 1px 1px 1px 1px rgb(0, 0, 0, 0.2);
     transform: scale(1);
@@ -105,6 +106,7 @@ header .hero-content p {
 
 .projects-section p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 300px;
 }
 
 /* About */
@@ -114,9 +116,10 @@ header .hero-content p {
     grid-template-columns: 1fr 1fr;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 70px;
+    padding-top: 70px;
     padding-bottom: 70px;
-    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+
 }
 
 .about-info {
@@ -125,6 +128,7 @@ header .hero-content p {
     flex-direction: column;
     justify-content: center;
     padding: 50px;
+
 }
 
 .about-container img {
@@ -159,4 +163,48 @@ address a {
     color: black;
     padding-top: 20px;
     
+}
+
+
+@media screen and (max-width:1080px) {
+    .projects-section {
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-container img {
+        justify-content: center;
+        /* margin-left: 6.5%; */
+    }
+
+}
+
+
+@media screen and (max-width:750px) {
+    body {
+        width: 760px;
+    }
+    /* header.hero {
+        width: 760px;
+    } */
+
+    .projects-section {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .project-container {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+
 }
